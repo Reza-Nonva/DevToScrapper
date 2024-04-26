@@ -5,7 +5,6 @@ from ..utils import remove_html_tags, write_data, is_exist, write_document
 
 class DevtoSpider(scrapy.Spider):
     name = 'devto_spider'
-
     css_selectors = {
         'doc_id': '#article-show-container::attr(data-article-id)',
         'title': '.fs-3xl::text',
@@ -22,7 +21,7 @@ class DevtoSpider(scrapy.Spider):
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
-    def parse(self, response, **kwargs):
+    def parse(self, response):
         if response.status == 200:
             doc_id = response.css(self.css_selectors['doc_id']).get()
 
@@ -32,5 +31,9 @@ class DevtoSpider(scrapy.Spider):
                 publish_date = response.css(self.css_selectors['publish_date']).get().split('T')[0]
                 write_data(doc_id=doc_id, title=title, author=author, publish_date=publish_date)
                 write_document(response, doc_id, self.css_selectors['article_body'])
+
+                next_pages = response.css('a.mt-6::attr(href)').getall()
+                for next_page in next_pages:
+                    yield response.follow(next_page, callback=self.parse)
             else:
                 pass
