@@ -1,16 +1,18 @@
-from pathlib import Path
-from typing import Iterable
-
 import scrapy
-from scrapy import Request
+
+from ..utils import remove_html_tags, write_data, is_exist, write_document
 
 
 class DevtoSpider(scrapy.Spider):
     name = 'devto_spider'
 
     css_selectors = {
+        'doc_id': '#article-show-container::attr(data-article-id)',
         'title': '.fs-3xl::text',
-
+        'author': 'a.fw-bold::text',
+        'publish_date': '.date-no-year::attr(datetime)',
+        'article_body': '#article-body',
+        'read_next': "a.mt-6::attr(href)",
     }
 
     def start_requests(self):
@@ -22,6 +24,13 @@ class DevtoSpider(scrapy.Spider):
 
     def parse(self, response, **kwargs):
         if response.status == 200:
-            title = response.css(self.css_selectors['title']).get().strip()
-            print(title)
-            self.log(f'page saved{response.url}')
+            doc_id = response.css(self.css_selectors['doc_id']).get()
+
+            if not is_exist(doc_id):
+                title = response.css(self.css_selectors['title']).get().strip()
+                author = response.css(self.css_selectors['author']).get().strip()
+                publish_date = response.css(self.css_selectors['publish_date']).get().split('T')[0]
+                write_data(doc_id=doc_id, title=title, author=author, publish_date=publish_date)
+                write_document(response, doc_id, self.css_selectors['article_body'])
+            else:
+                pass
