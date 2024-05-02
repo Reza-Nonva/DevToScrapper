@@ -1,3 +1,4 @@
+import json
 import re
 import csv
 
@@ -9,26 +10,42 @@ def remove_html_tags(text):
 
 
 def is_exist(doc_id):
-    reader = csv.reader(open('data.csv', 'r'))
-    for data in reader:
-        if doc_id == data[0]:
-            return True
-    return False
+    """
+    Check if a document ID exists in the 'doc_id.txt' file.
+    """
+    try:
+        with open('doc_id.txt', 'r') as file:
+            for line in file:
+                if line.strip() == doc_id:
+                    return True
+        return False
+    except Exception as e:
+        print("Error:", e)
+        return False
 
 
-fields = ['doc_id', 'title', 'author', 'publish_date']
+def save_doc_id(doc_id):
+    """
+    save document ID in doc_id.txt file to prevent fetching the same pagr again
+    """
+    try:
+        with open('doc_id.txt', 'a+') as file:
+            file.write(doc_id + '\n')
+    except IOError as e:
+        print("Error: Could not write to file:", e)
 
 
-def write_data(**kwargs):
-    with open('data.csv', 'a+') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fields)
-        # writer.writeheader()
-        writer.writerow(kwargs)
-
-
-def write_document(response, doc_id, css_tag):
+def save_doc_body(response, css_tag, **kwargs):
     body = remove_html_tags(response.css(css_tag).getall()[0])
-    body.strip()
-    with open(f'documents/{doc_id}.txt', 'w') as file:
-        file.write(body)
-        file.close()
+    body = body.strip()
+    data = {
+        'doc_id': kwargs.get('doc_id'),
+        'title': kwargs.get('title'),
+        'author': kwargs.get('author'),
+        'tags': kwargs.get('tags'),
+        'publish_date': kwargs.get('publish_date'),
+        'body': body,
+    }
+
+    with open(f'documents/{kwargs.get("doc_id")}.json', 'w') as file:
+        json.dump(data, file, indent=4)
