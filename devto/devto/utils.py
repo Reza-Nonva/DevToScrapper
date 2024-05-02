@@ -42,5 +42,8 @@ def save_doc_body(response, css_tag, **kwargs):
     with open(f'documents/{kwargs.get("doc_id")}.json', 'w') as file:
         json.dump(data, file, indent=4)
 
+    # Save crawled pages paragraphs to file
     with open('crawled_posts.txt', 'a+') as file:
-        file.write(body + '\n')
+        paragraphs = response.css(css_tag + '>p::text').getall()
+        for paragraph in paragraphs:
+            file.write(paragraph + '\n')
