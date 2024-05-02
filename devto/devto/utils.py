@@ -1,18 +1,19 @@
 import json
 import re
-import csv
 
 
-def remove_html_tags(text):
-    html_pattern = re.compile('<.*?>')
-    clean_text = re.sub(html_pattern, '', text)
-    return clean_text
+def clean_text(text):
+    """Remove HTML tags and extra whitespace from a string."""
+    # Remove HTML tags
+    clean_text = re.sub(r'<[^>]*>', '', text)
+    # Remove extra whitespace and empty lines
+    clean_text = re.sub(r'\n\s*\n', '\n', clean_text)
+    clean_text = re.sub(r'\s+', ' ', clean_text)
+    return clean_text.strip()
 
 
 def is_exist(doc_id):
-    """
-    Check if a document ID exists in the 'doc_id.txt' file.
-    """
+    """Check if a document ID exists in the 'doc_id.txt' file."""
     try:
         with open('doc_id.txt', 'r') as file:
             for line in file:
@@ -25,9 +26,7 @@ def is_exist(doc_id):
 
 
 def save_doc_id(doc_id):
-    """
-    save document ID in doc_id.txt file to prevent fetching the same pagr again
-    """
+    """save document ID in doc_id.txt file to prevent fetching the same page again"""
     try:
         with open('doc_id.txt', 'a+') as file:
             file.write(doc_id + '\n')
@@ -36,16 +35,12 @@ def save_doc_id(doc_id):
 
 
 def save_doc_body(response, css_tag, **kwargs):
-    body = remove_html_tags(response.css(css_tag).getall()[0])
-    body = body.strip()
-    data = {
-        'doc_id': kwargs.get('doc_id'),
-        'title': kwargs.get('title'),
-        'author': kwargs.get('author'),
-        'tags': kwargs.get('tags'),
-        'publish_date': kwargs.get('publish_date'),
-        'body': body,
-    }
+    body = clean_text(response.css(css_tag).getall()[0])
+    data = {key: value for key, value in kwargs.items()}
+    data['body'] = body
 
     with open(f'documents/{kwargs.get("doc_id")}.json', 'w') as file:
         json.dump(data, file, indent=4)
+
+    with open('crawled_posts.txt', 'a+') as file:
+        file.write(body + '\n')

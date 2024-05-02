@@ -1,6 +1,6 @@
 import scrapy
 
-from ..utils import remove_html_tags, save_doc_id, is_exist, save_doc_body
+from ..utils import save_doc_id, is_exist, save_doc_body
 
 
 class DevtoSpider(scrapy.Spider):
