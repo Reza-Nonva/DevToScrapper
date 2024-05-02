@@ -37,9 +37,12 @@ class DevtoSpider(scrapy.Spider):
                                   author=author,
                                   tags=tags, publish_date=publish_date)
                 except Exception as e:
-                    print(e)
-                next_pages = response.css('a.mt-6::attr(href)').getall()
+                    self.logger.error(e)
+                next_pages = response.css(self.css_selectors['read_next']).getall()
                 for next_page in next_pages:
                     yield response.follow(next_page, callback=self.parse)
             else:
-                pass
+                self.logger.info(f"Document with {doc_id} already exists. Skipping.")
+        else:
+            self.logger.error(f"Faild to fetch page: {response.url}")
+
