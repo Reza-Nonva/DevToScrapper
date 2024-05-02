@@ -1,0 +1,13 @@
+{
+    "doc_id": "1823542",
+    "title": "How to Serve an Angular App with Nginx",
+    "author": "Vivek Nariya",
+    "tags": [
+        "angular",
+        "nginx",
+        "config",
+        "webdev"
+    ],
+    "publish_date": "2024-04-15",
+    "body": "Installing Nginx on Windows 1... - Download the latest version of Nginx for Windows from the official Nginx website. 2... - Extract the downloaded archive to a directory of your choice, such as C:\\nginx. nginx.conf Configuration Next, let's configure Nginx to serve our Angular application. Below is a basic configuration file (nginx.conf) for serving an Angular app: http { include mime.types; server { listen 2292; root /Users/vivek/Desktop/SAAS/saas_client/dist/sfms/browser; } } events{} Enter fullscreen mode Exit fullscreen mode Explanation of Configuration The provided Nginx configuration file consists of the following directives: http This directive marks the beginning of the HTTP block, which defines global settings for Nginx. include mime.types; This directive includes the mime.types file, which maps file extensions to their corresponding MIME types. server This directive defines a server block within the HTTP block. A server block defines how Nginx handles requests for a specific domain name or port. listen 2292; This directive specifies the port (2292) on which Nginx should listen for incoming connections. root /Users/vivek/Desktop/SAAS/saas_client/dist/sfms/browser; This directive sets the root directory from which Nginx should serve static files. [above location is location of build artifacts] In this case, the Angular application's built output is located in the specified directory. Replacing Default nginx.conf To use the above configuration, follow these steps: 3... Locate the default nginx.conf file in the Nginx installation directory (typically C:\\nginx\\conf on Windows). 4... Replace the contents of the default nginx.conf file with the configuration provided above. 5... Save the changes to the nginx.conf file. Basic Nginx Commands To start Nginx: Open Command Prompt and navigate to the Nginx directory (cd C:\\nginx) and then run nginx.exe. To stop Nginx: Use the command nginx.exe -s stop. To reload Nginx configuration: Use the command nginx.exe -s reload. 6... go to browser and hit localhost:2209 7... its done!!!\ud83d\ude00"
+}

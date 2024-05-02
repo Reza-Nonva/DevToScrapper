@@ -1,0 +1,13 @@
+{
+    "doc_id": "1817359",
+    "title": "Unlocking Cloudflare's Threat Score: Enhance Your Security Without Upgrading Your\u00a0Plan",
+    "author": "ajinm98",
+    "tags": [
+        "security",
+        "devops",
+        "webdev",
+        "productivity"
+    ],
+    "publish_date": "2024-04-10",
+    "body": "Cloudflare assigns a threat score to each request that is proxied through its services. This threat score ranges from 0, indicating no risk, to 100, signaling a high risk. The score classifies the IP reputation of a visitor based on several factors, including data from Project Honeypot, external public IP information, and internal threat intelligence derived from WAF managed rules and DDoS mitigation efforts. However, users on the Basic or Pro plans do not have direct access to the threat scores of their traffic, nor can they create rules based on these scores. But there's a workaround that allows you to access this risk score and utilize it to create rules within your application. The key is to create a Transform Rule that modifies the request header. By doing this, you can get the risk score information and make rules/decisions to enhance your application's security. Please follow the steps below: Go to transform rules Select Modify Header request Set a dynamic header with value 'cf.threat_score' That's it now you will get threat score for each request using the dynamic header name"
+}

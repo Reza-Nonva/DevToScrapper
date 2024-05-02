@@ -1,0 +1,13 @@
+{
+    "doc_id": "1832929",
+    "title": "Customer service pages for e-commerce built with Tailwind CSS",
+    "author": "Zolt\u00e1n Sz\u0151gy\u00e9nyi",
+    "tags": [
+        "tailwindcss",
+        "flowbite",
+        "webdev",
+        "javascript"
+    ],
+    "publish_date": "2024-04-24",
+    "body": "E-commerce is a huge part of today's internet and Tailwind CSS has been a growing CSS framework that more and more developers are adopting. I'd like to share with you a couple of customer service pages that we've coded over at Flowbite. Get started with a collection of components and pages to show questions and answers to your E-commerce customers with FAQ and community forums. Default customer service page Use this component to show a list of question and a form where you can submit a question within a modal to provide support to customers. Source code and example Customer service with drawer This example can be used to show both questions and answers and use a drawer with a form element that allows you to add a question. Source code and example Customer service accordion with FAQ Use this example to show a list of frequently asked questions and answers inside an accordion component for your e-commerce customers. Source code and example Customer service with wysiwyg Use this example to show a list of questions and answers with upvotes and a wysiwyg form to submit an answer as a product customer. Tailwind CSS Source code and example Customer service page Use this example to show a full page of customer service data using FAQ sections and a modal to submit a question. Source code and example Credits These components could not have been built without the usage of the following open-source libraries and frameworks: Tailwind CSS Flowbite Icons Flowbite Library"
+}

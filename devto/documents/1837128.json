@@ -1,0 +1,13 @@
+{
+    "doc_id": "1837128",
+    "title": "Frontend Challenge: Animated Globe CSS Art: Earth Day",
+    "author": "Gabriel Sena",
+    "tags": [
+        "frontendchallenge",
+        "devchallenge",
+        "css",
+        "webdev"
+    ],
+    "publish_date": "2024-04-29",
+    "body": "This is a submission for Frontend Challenge v24.04.17, CSS Art: Earth Day. Inspiration The word 'earth' represents to me a globe, and, on current days, the news about climate changes calls our attention. So, I decided to use this challenge to challenge myself by developing an animated globe with climate change representation using only CSS. \ud83c\udf0d \ud83e\udd2f Demo Link to Demo Link to Code - Repository Screenshot Journey To start this challenge, I decided to brainstorm my ideas using Asesprite to create globe illustrations and it's states. After that, I ran to code and created the first state: the globe. Then, I developed the others states: fires and water overflow. To help me a develop these states, I decided to use the power of css variables to I am not get lost and keep my code readable to keep going. The major problem to develop this illustration pixel by pixel, is because is really hard to work with it. To make more easier, I used the box-shadow tecnique to help me a create something like a \"canvas\" to point these points like a editor. After making these states, I started building my CSS animation to sync everything and tried to make more smooth possible. And there you have it! I'm proud to have developed this CSS art =)"
+}

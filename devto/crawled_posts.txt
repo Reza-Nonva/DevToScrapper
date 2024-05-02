@@ -1,0 +1,445 @@
+It's been a long 5 years.
+5 years of stand-ups, posture issues, fixing staging and production sites, and code, so much code. It's hard to imagine that it's been that long, it seems like ages ago. 
+From starting my career as a back-end Python engineer working on healthcare websites to building full-stack applications with Typescript, I've seen a few things and led myself astray along the way. 
+One of the ways I disadvantaged myself was to be a "yes man".
+I took any opportunity I could to prove myself and advance my career. Build my skills and keep my clients happy. I wanted to be known as a competent engineer. I wanted people to want me on their team. I wanted attention and to be recognized for my efforts, no matter what.
+I would work extra hours during the day or weekends to keep people happy. Anyone besides myself or my family. 
+Stretching myself like this would only get me so far. I voluntarily did this to make my clients happy or to make up for a fumble I had during a meeting earlier in the week. I felt like I owed someone something.
+As long as my clients were happy, I was happy. Or at least that's what I told myself for years. 
+I was becoming the person I set out 
+ to be, the workaholic programmer who only made time for work. Work work work. A cog in the machine that only stops to rest. 
+I didn't stop and think about the negative impact my workaholic tendencies would have on my mental health and family. They craved more attention from me. Attention that I denied them so I could focus on developing the skills I thought I needed for the future.
+I was right on some of the skills and wrong on others. Let me explain.
+Looking back, I feel like this wasn't the move. I was studying to earn a Google Developer certification to show to companies that I knew Google Cloud. What does that even mean? Knowing "Google Cloud" is a HUGE goal for anyone to learn (same goes for Azure, AWS, etc), I didn't set the right expectations for myself. 
+A better use of my time would've been to better understand the exact features of GCC that would've benefited my projects. At the time, I was using Firebase on every project to speed up development. Learning more about GC Cloud Functions, App Engine, Storage, and IAM would've pushed me further in my career besides just knowing the basics. 
+Couldn't the cert help me with those things? Yes, but it probably was overkill. 
+This was my biggest mistake.
+I was eager to prove myself and fearful of letting people down. I wouldn't turn someone down because it was an opportunity for me to learn and get more experience. 
+It was easy for me to feel like this was progressing my career but it lead to sooner burnout. That sooner burnout hindered my performance and my drive to learn. 
+There's new technologies coming out all the time and I felt like it was my responsibility to keep up with the trends. There's some truth to that but I was a bit starry-eyed thinking I should learn everything tech-bros were talking about.
+Is it okay to try new things? Absolutely. 
+Is it okay to force yourself to try new things when you should be around those who care about you? For me, no.
+The reality was that I just needed to stick with the things that employers were looking for. For my specific line of work, this would mostly be React, React Native, JS/TS, Firebase, HTML, CSS, etc. A framework, a language, and the tools to build full stack apps. 
+That's what helped me get the positions I was in, understanding tools and having the skills that employers were looking for.
+In my experience, employers weren't looking for a full-stack dev that had a Google Cloud certification or knowledge of Rust. They were looking for someone who knew one of the big three front-end frameworks (React, Angular, Vue) and could write nodejs code. Also someone who could adapt to older/different codebases than current standards.
+At the times I was applying for new opportunities, I never saw positions that were looking for Svelte, Rust, RedwoodJs, etc experience. Mainly full-stack positions that asked if you could provide value with knowing more common technologies.
+Rust is a neat language but it doesn't have much use for me in my area of webdev. I typically work on full-stack apps that use Typescript. Typically a CMS or CMS-like back-end and React front-end. Why should I learn Rust?
+It's not like I was building CLI tools or infrastructure to support my web apps, I just thought Rust was cool. I thought it would give me an edge.
+And let me stop for a moment, there is nothing wrong with learning new things. There is nothing wrong with learning Rust or anything on this list. My point is I was forcing myself to learn something that I didn't need to learn. I thought I was advancing my career but I was just holding myself back by not investing my time into the things that companies would want me to do (mostly front-end stuff at this time). 
+What actually gave me energy to continue learning wasn't to force myself to learn, it was to spend more time with my family and recharge. After all, the point of me working so much was to have more family time by being better at my job, wasn't it?
+But that's enough of the negative, let's focus on the things that pushed me along my career. 
+To most of you, this is a no-brainer, but I learned it the hard way. Instead of communicating my hiccups to my team, I'd silently iron all bugs in my way. "I can fix anything!" I'd say to myself, not considering that I could save time by pair programming with someone else. 
+What happens when you can't fix something and your deadline is coming up? Panic. 
+What happens when you can't fix something, your deadline is coming up, and you leverage your team? More often than not, the team will help you get out of your situation. Either by helping you get unstuck, developing the work with you, or communicating with the client that we should push back the deadline. 
+Another no-brainer for those who work in webdev. Looking back, I wish I focused on Typescript a lot sooner. I'd have more experience and would have more job opportunities. Most places are asking for TS experience these days.
+I'd also grow faster. If I implemented TS sooner, more of my legacy projects would be more maintainable because my code would've been more intentional with its data flow. 
+If you work front-end, you need to know these. I was 
+ at it but for most of my career I'd use divs for everything. Who cares about SEO or accessibility anyway? Yeah, totally not my attitude these days. 
+If you're having a hard time, this might be your skeleton key. Learning to say no and protecting my boundaries was a 
+! 
+When I learned how to protect my boundaries, I was able to properly set expectations with my team. Expectations that were manageable led me to get more sleep, keep work at work, generally feel less stressed, and not feel burnt out as quickly.
+You have to swallow your pride to do this. Accept that you can't do everything and you should leverage your team when you need them. They're there to help you, as you are to them.
+These things actually helped me progress in my career. The cool thing was they didn't take much time outside of work. They're mostly day-to-day things that made my life easier. And with my life easier, I was able to make more time for my family. 
+What also helps motivate me is having a sense of community. Something outside of my job that connects me with others who feel the same way I do. For me, there's a non-profit organization called GRWebDev that hosts events in my local area. 
+Maybe there's an org like that around you too ☺️
+Thanks for reading! If you liked this post please give it a heart or another emoji. Did this post help you manage learning and your mental health? Or do you have some tips from your personal journey? Let me know in the comments below!
+As a developer, you've probably been in your fair share of Agile retrospectives. These meetings are essential for reflecting on the past sprint, identifying areas for improvement, and ensuring the team is on the same page. But let's be real - sometimes, retros can feel a bit stale and repetitive. 😴
+What if we told you there's a way to spice things up and make your retrospectives more engaging and enjoyable? The answer? GIFs!
+GIFs have become an integral part of online communication, and for good reason. They're perfect for expressing emotions, reactions, and ideas in a way that's both concise and entertaining. Here's why you should consider using GIFs in your Agile retrospectives:
+Now that you're sold on the idea of using GIFs in your retrospectives, you might be wondering how to make it happen. That's where 
+ comes in - a free sprint retrospective tool that fully supports GIFs and emojis. 🙌
+With Kollabe, adding GIFs and emojis to your retro items and comments is a breeze. Want to give a colleague's idea a thumbs-up? Just add the emoji. Need to illustrate a challenge you faced? Find the perfect GIF and let it do the talking. 
+But Kollabe isn't just about the fun stuff - it's a powerful retrospective tool packed with features that other tools might charge you an arm and a leg for. From customizable templates to action item tracking, Kollabe has everything you need to run effective and engaging retrospectives. And did we mention it's completely free? 🤑
+If you're ready to take your Agile retrospectives to the next level, give 
+ a shot. Sign up for a free account, invite your team, and watch as your retros transform from mundane meetings to lively, GIF-filled discussions. 
+Remember, retrospectives are about learning, improving, and building a stronger team. With Kollabe and GIFs, you can achieve all of that while also boosting morale and having a bit of fun along the way. 
+So, what are you waiting for? 
+ for your retrospectives today and experience the difference for yourself! 🚀
+P.S. If you want to learn more about the power of GIFs in Agile retrospectives, check out 
+ on the Kollabe blog.
+As developers, we constantly seek patterns and practices that enhance our code's efficiency, reusability, and maintainability. A recent 
+ in highlighted two methods for managing volume state in media players using React Hooks.
+Because I believe this approach significantly enhances reusability across various media players, I will explore why adopting a flexible hook interface is beneficial. This post contrasts two methodologies and demonstrates how thoughtfully crafted hooks can be effectively utilized in multiple applications.
+The discussion featured two examples. Example A depicted 
+ tightly coupled to the 
+ hook. This design limits 
+ to the video player, preventing its independent use or integration with other player hooks like 
+.
+In contrast, Example B presented 
+ as a standalone hook that accepts a player object. While aligning with React's core principles, this design challenges the Interface Segregation Principle (ISP). ISP advocates that no client should be forced to depend on methods it does not use, suggesting that 
+ should not need player-specific knowledge.
+Recognizing the need for better interface segregation, I proposed an interface where 
+ and 
+ operate independently yet communicate effectively when necessary. Here's the improved interface demonstrated through a 
+:
+
+
+Here's how the hooks are implemented:
+
+
+And the component that uses both hooks:
+
+
+This design respects ISP by allowing each hook to be consumed independently, without assuming the presence of the other. It provides a clean separation that facilitates better modularity and reusability, ensuring that components only interact with the functionalities they require.
+The flexibility of a hook is determined by how well it can operate in different contexts. By embracing flexibility in our hook designs, we make them more reusable and adaptable, leading to a cleaner and more efficient codebase. Designing with reusability in mind is essential, whether you're building hooks for video or audio players or any other functionality. Let's write code that stands the test of time and adaptability.
+The word 'earth' represents to me a globe, and, on current days, the news about climate changes calls our attention. So, I decided to use this challenge to challenge myself by developing an animated globe with climate change representation using only CSS. 🌍 🤯
+Screenshot
+
+
+
+To start this challenge, I decided to brainstorm my ideas using Asesprite to create globe illustrations and it's states.
+After that, I ran to code and created the first state: the globe. Then, I developed the others states: fires and water overflow.
+To help me a develop these states, I decided to use the power of css variables to I am not get lost and keep my code readable to keep going.
+The major problem to develop this illustration pixel by pixel, is because is really hard to work with it. To make more easier, I used the box-shadow tecnique to help me a create something like a "canvas" to point these points like a editor.
+After making these states, I started building my CSS animation to sync everything and tried to make more smooth possible.
+And there you have it! I'm proud to have developed this CSS art =)
+Hi all! I'm a beginner web developer and I'm currently looking for a job. I created and launched my portfolio website. This is my first project and I wanted to get comments from the community. 
+
+
+Cloudflare assigns a threat score to each request that is proxied through its services. This threat score ranges from 0, indicating no risk, to 100, signaling a high risk. The score classifies the IP reputation of a visitor based on several factors, including data from Project Honeypot, external public IP information, and internal threat intelligence derived from WAF managed rules and DDoS mitigation efforts.
+
+However, users on the Basic or Pro plans do not have direct access to the threat scores of their traffic, nor can they create rules based on these scores. But there's a workaround that allows you to access this risk score and utilize it to create rules within your application.
+
+The key is to create a Transform Rule that modifies the request header. By doing this, you can get the risk score information and make rules/decisions to enhance your application's security.
+Please follow the steps below:
+I wanted to create a playful, simple and positive design for Earth Day challenge. 🌍🌎🌏
+Here is the link to 
+I enjoyed the process of creating a simple FrontEnd page, using HTML and CSS only.
+
+I am proud that I could integrate the animation of the background. This page is a handshake between simplicity and dynamism. 🤝 
+
+I hope that, next time, I use JavaScript and other technologies. 😸
+Do you wonder if your company is on the path to becoming a part of history that nobody remembers?
+30 years later, and as someone from a completely different generation of techies, I'm revisiting a classic essay by Orson Scott Card on the age-old clash between coders and corporate culture.
+Get ready for a thought-provoking dose of nostalgia 😅
+React is a continuously evolving library in the ever-changing web development landscape. As you embark on your journey to learn and master React, it’s important to understand the evolution of the library and its updates over time.
+One of the advantages of React is that its core API has remained relatively stable in recent years. This provides a sense of continuity and allows developers to leverage their knowledge from previous versions. The conceptual foundation of React has remained intact, meaning that the skills acquired three or five years ago can still be applied today. Let’s take a step back and trace the 
+
+history of React from its early versions to the recent ones. From 
+, numerous pivotal changes and enhancements have been made as follows:
+
+There are several ways to create a React project when you are getting started. In this section, let's explore three common approaches:
+
+• Using web bundlers
+
+• Using frameworks
+
+• Using an online code editor
+
+Using a web bundler is an efficient way to create React projects, especially if you are building a 
+. 
+ is known for its remarkable speed and ease of setup and use.
+To set up your project using Vite, you will need to take the following steps:
+
+Finally, start the development server by running the following command: npm run dev.This command launches the development server, and you can view your React application by opening your browser and visiting 
+
+For real-world and commercial projects, it is recommended to use frameworks built on top of React. These frameworks provide additional features out of the box, such as routing and asset 
+
+management (images, SVG files, fonts, etc.). They also guide you in organizing your project structure effectively, as frameworks often enforce specific file organization rules. Some popular React 
+
+frameworks include 
+
+Online code editors combine the advantages of web bundlers and frameworks but allow you to set up your React development environment in the cloud or right inside of the browser. This 
+
+eliminates the need to install anything on your machine and lets you write and explore React code directly in your browser.
+
+While there are various online code editors available, some of the most popular options include 
+. These platforms provide a user-friendly interface and allow you to create, share, and collaborate on React projects without any local setup.To get started with an online code editor, you don’t even need an account. Simply follow this link 
+
+on your browser:(
+). In a few seconds, you will see that CodeSandbox is ready to work with a template project, and a live preview of the editor is available directly in the browser tab. If you want to save your changes, then you need to create an account.Using online code editors is a convenient way to learn and experiment with React, especially if you prefer a browser-based development environment.
+E-commerce is a huge part of today's internet and Tailwind CSS has been a growing CSS framework that more and more developers are adopting. I'd like to share with you a couple of 
+ that we've coded over at Flowbite.
+Get started with a collection of components and pages to show questions and answers to your E-commerce customers with FAQ and community forums.
+Use this component to show a list of question and a form where you can submit a question within a modal to provide support to customers.
+This example can be used to show both questions and answers and use a drawer with a form element that allows you to add a question.
+Use this example to show a list of frequently asked questions and answers inside an accordion component for your e-commerce customers.
+Use this example to show a list of questions and answers with upvotes and a wysiwyg form to submit an answer as a product customer.
+Use this example to show a full page of customer service data using FAQ sections and a modal to submit a question.
+These components could not have been built without the usage of the following open-source libraries and frameworks:
+1... - Download the latest version of Nginx for Windows from the official Nginx website.
+2... - Extract the downloaded archive to a directory of your choice, such as C:\nginx.
+3... Locate the default nginx.conf file in the Nginx installation directory (typically C:\nginx\conf on Windows).
+4... Replace the contents of the default nginx.conf file with the configuration provided above.
+5... Save the changes to the nginx.conf file.
+6... go to browser and hit localhost:2209
+7... its done!!!😀
+In ReactJS, Containment and Specialization are techniques for building reusable and maintainable components. Here's a breakdown of each concept:
+Containment:
+Specialization:
+Key Points:
+My primary goal was to create an engaging and educational landing page with the theme of Earth Day. To achieve this, I focused on several key enhancements:
+I developed a dynamic quiz game to educate visitors about environmental issues and Earth Day. The quiz included questions on various topics, such as conservation symbols, Earth's surface, and benefits of reducing plastic waste. This feature was designed to engage users interactively, providing immediate feedback on their answers to enhance learning.
+To make the quiz more accessible and visually appealing, I enhanced the quiz button. By adding an icon and styling the button, I ensured it was prominent and inviting, encouraging users to engage with the quiz.
+Recognizing the need to manage content visibility effectively, I implemented toggles for articles. This not only helped in organizing content better but also allowed for a cleaner and more user-friendly interface.
+To showcase tips on environmental conservation effectively, I integrated a swiper mechanism that allowed users to swipe through different tips. This not only added a modern touch to the page but also made the information more digestible and fun to interact with.
+I used several functions to achieve these goals. Here's an explanation of what each function does:
+This function is responsible for setting up a quiz game. It:
+This function enhances the appearance and functionality of a quiz-related link by:
+This function sets up visibility toggles for articles within a section by:
+This function initializes a swiper component, which is a popular library for creating responsive sliders:
+My journey to enhance an HTML landing page for Earth Day was both challenging and rewarding. Given the constraint of not modifying the existing HTML structure directly, I had to think creatively about how to use JavaScript and CSS to introduce new functionalities and improve the user interface. 
+This required a deep dive into the DOM manipulation and dynamic styling to implement the desired features without disrupting the original content structure.
+I used the following images from Pexels:
+Are you tired of relying solely on Google Analytics to track your website's performance? Look no further! Introducing 
+, a powerful and privacy-focused alternative that puts you in control of your analytics data. Umami was founded by three brothers, Mike, Brian and Francis Cao as they were frustarted with using Google Analytics, which dominated and still does the industry of analytics despite of privacy concerns. As it is open-source, Umami quickly started being popular open-source project while still respecting privacy of users. My personal opinion, is that Umami is really easy to setup and use, for smaller projects as my personal website it is of great use. It does not many tracking as GA but it really does its job.
+In this post, we'll explore the benefits of using Umami over Google Analytics, how to set it up, and some catchy variations for its name.
+As mention above you can use Umami on two ways, 
+ and 
+.
+Copy that code provided by Umami and paste in your application 
+, in this example I am using Next.js so i added it into 
+
+
+
+ or if you want in plain html, you should add it like following
+
+
+
+You are able to track events as well in Umami and it is pretty straight forward, just add it to desired button, link, etc. like in example below
+
+
+If you want to host Umami on your machines, you are free to do so. Easisest way which i used many times is that I use dockerized Umami and run it in docker containers on my desired machine.
+
+Easiest way to do so is to go to the so is to follow this guide 
+.
+
+Basically, you need docker compose file, and Docker installed on your machine. When you have all prerequisites you can run
+
+
+This will start docker server in one container and database in the other which is needed in order to Umami stores data of your analytics.
+
+Pretty straight forward steps and you are ready to go, visit specified port for Umami you set and thats it. Afterwards you can host it on your server wherever you want.
+In conclusion, Umami offers a refreshing alternative to Google Analytics, providing privacy, openness, simplicity, and real-time tracking—all while putting you in control of your analytics destiny. Give Umami a try today and unlock the true potential of your website analytics.
+Keep in mind that you dont have to option only one analytics tool, you have options and ability to use multiple analytics for the same website for whatever purpose you choose. On my website, I personally use Umami, Google Analytics, Vercel Analytics and Splitbee (later aquired by Vercel).
+
+Note: Remember to always comply with applicable data protection laws and regulations when collecting
+
+and processing user data.
+Feel free to checkout my original post 
+While working on a project, I wanted to do an integrity check of a file that I was referencing. So, I needed to know how to get the hash of a file in Node.js. And this post is about that.
+We will use the fs and crypto modules that are available in Node.js to get the hash of a file. We will be using the createReadStream method of the fs module to read the file and get its contents. After we are done reading it, we will call the the getHash() method of the crypto module to calculate the hash of the file.
+Then, we can use the getHash method to get the hash of a file. It is worth mentioning that we could have used various algorithms for hashing our file, like md5, sha1 and sha256. sha256 would be the more robust algorithm but a bit slower than the other less secure ones. For the digest method, we could have used hex or base64 depending on how we want to output the hash. We can use the above method like so:
+And that is all to the code and its explanation. If you have any questions, feel free to drop a comment below.
+Angular offers Server-Side Rendering (SSR) which enables your Angular application to render on the server before sending it to the client, resulting in improved performance and search engine optimization. In this post, we'll delve into the process of implementing Angular SSR, complete with code samples and step-by-step instructions.
+Before diving into implementation details, let's understand why Angular SSR is beneficial:
+First, ensure you have Angular CLI installed. If not, install it globally using npm:
+
+
+Create a new Angular project:
+
+
+Angular Universal provides server-side rendering support for Angular applications. Install it along with the necessary dependencies:
+
+
+Generate the SSR files using Angular Universal schematics:
+
+
+This command creates server-side rendering files within your Angular project.
+In 
+, configure your routes as usual. Ensure your routes are compatible with both client and server rendering.
+Build your Angular application for server-side rendering:
+
+
+This command compiles your Angular application and generates server-side rendering artifacts.
+Start the server for server-side rendering:
+
+
+Your Angular application is now ready for server-side rendering! Visit 
+ to see it in action.
+Implementing Angular Server-Side Rendering (SSR) is a powerful technique for improving performance and SEO-friendliness of your web applications. By following the steps outlined in this guide, you can seamlessly integrate SSR into your Angular projects. Remember to continuously optimize and test your application to ensure optimal performance and user experience.
+Angular SSR not only boosts performance but also enhances the accessibility and discoverability of your web applications in today's competitive digital landscape. So, why wait? Start implementing Angular SSR today and reap the benefits it offers for your projects. Happy coding!
+When it comes to programming in JavaScript, arrays are one of the fundamental structures that help you store and manage collections of data. The array prototype in JavaScript, often simply referred to as Array prototypes, is crucial because it provides all arrays with a set of built-in methods. These methods allow you to perform various operations on arrays, such as adding and removing items, searching, sorting, and more.
+In JavaScript, an "array" is a special type of object tailored for storing sequences of values. The Array prototype refers to the template object that provides all arrays with their methods and properties. It’s like a blueprint that gives arrays their functionality.
+Here’s a look at some of the most commonly used methods provided by the Array prototype, along with simple examples to illustrate how they work.
+Understanding these methods can significantly simplify the way you handle data in JavaScript. By using these built-in methods, you can write cleaner, more efficient code. Knowing when and how to use these methods can help you manipulate data arrays effectively without the need for cumbersome loops and complex logic.
+Array prototypes are a powerful aspect of JavaScript programming. They not only provide essential methods for everyday tasks but also allow beginners and experienced developers alike to handle data more efficiently. Whether you're managing lists of users, scores, or any other data, array methods can help you simplify your JavaScript code and improve performance.
+In this article I will explain what the JavaScript DOM (Document Object Model) is and at the end of this article you might even be able to manipulate it.
+Lets get into it.
+The Document Object Model is a tree-like representation of the the structure and contents of a webpage. Just like a family tree.
+We call a data structure a tree when it has a branching structure and a single, well-defined root. In the case of the DOM, the document serves as the root node.
+And just as any other tree has nodes, the same goes for the DOM. And we call these Elements, which represent HTML tags and determine the structure of the document. Other elements like the head and body tags can also serve as parent nodes to their own child nodes.
+The DOM serves as the backbone of every web page. It provides a structured representation of all the components and content of HTML or XML documents which allows developers to navigate, access and manipulate them. It also allows web developers the ability to create dynamic and interactive content for users.
+When working with the DOM, we use " selectors " to target the nodes we want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes.
+You can also use relational selectors (
+ or 
+) with special properties owned by the nodes.
+DOM methods are functions provided by the DOM interface that allow us to access and manipulate HTML elements on web pages using JavaScript. Here are some examples.
+ selects the first element that matches a given CSS selector.
+
+
+ selects all matching elements.
+
+
+This method selects based on the 
+ attribute of an element on the page.
+
+
+This method is used to select all elements belonging to a particular 
+.
+
+
+This method is used to select all elements with a specific 
+.
+
+
+This refers to the process of dynamically modifying the structure, changing page content, adding new elements, removing existing elements, and updating style properties.
+ - creates a new element of tag type tagName. [options] in this case means you can add some optional parameters to the function.
+
+
+This is so that you can manipulate the element (by adding styles, classes, ids, text, etc.) before placing it on the page.
+You can place the element into the DOM with one of the following methods.
+
+
+To remove an existing element, we must find the parent element of the element and then use the 
+method.
+
+
+We can use textContent or innerHTML properties to change the text content of an element within the DOM.
+
+
+We can change the CSS style properties and other properties of the elements.
+
+
+Keep in mind that the JavaScript does not alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
+You can inspect the DOM structure of a web page using your browser's developer tool.
+DOM is a fundamental concept in the world of modern web development. Get manipulating, you're good to go.
+Found this blog post helpful? Consider sharing it with others who might benefit as well.
+If you have questions or any feedback please let me know in the comments. It will help me improve this and more blogs to come.
+Thanks for reading and see you in the next one!
+Last week, I wrote an 
+ of the 
+. The specification aims to avoid duplicated requests. In short, the idea is for the client to send a unique key along with the request:
+This post shows how to implement it with 
+.
+Before starting coding, we need to define a couple of things. Apache APISIX offers a plugin-based architecture. Hence, we will code the above logic in a plugin.
+Apache APISIX builds upon OpenResty, which builds upon nginx. Each component defines phases, which map more or less across the components. For more info on phases, please see 
+.
+Finally, we shall decide on a priority. Priority defines the order in which APISIX runs plugins 
+. I decided on 
+, as all authentication plugins have a priority in the 
+ and more range, but I want to return the cached response ASAP.
+The specification requires us to store data. APISIX offers many abstractions, but storage is not one of them. We need access via the idempotency key so it looks like a key-value store.
+I arbitrarily chose Redis, as it's pretty widespread 
+ the client is already part of the APISIX distribution. Note that simple Redis doesn't offer JSON storage; hence, I use the 
+ Docker image.
+The local infrastructure is the following:
+
+
+The APISIX configuration is the following:
+
+
+Finally, we declare our single route:
+
+
+With this infrastructure in place, we can start the implementation.
+The foundations of an Apache APISIX plugin are pretty basic:
+
+
+The next step is configuration, 
+ Redis host and port. For starters, we shall offer a single Redis configuration across all routes. That's the idea behind the 
+ section in the 
+ file: common configuration. Let's flesh out our plugin:
+
+
+Because I defined default values in the plugin, I can override only the 
+ to 
+ to run inside my Docker Compose infrastructure and use the default port.
+Next, I need to create the Redis client. Note that the platform prevents me from connecting in any phase after the rewrite/access section. Hence, I'll create it in the 
+ method and keep it until the end.
+
+
+The Redis client is now available in the 
+ variable throughout the rest of the plugin execution cycle.
+In my previous software engineer life, I usually implemented the nominal path first. Afterward, I made the code more robust by managing error cases individually. This way, if I had to release at any point, I would still deliver business values - with warnings. I shall approach this mini-project the same way.
+The pseudo-algorithm on the nominal path looks like the following:
+
+
+We need to map the logic to the phase I mentioned above. Two phases are available before the upstream, 
+ and 
+; three after, 
+, 
+ and 
+. The 
+ phase seemed obvious for work before, but I needed to figure out between the three others. I randomly chose the 
+, but I'm more than willing to listen to sensible arguments for other phases.
+Note that I removed logs to make the code more readable. Error and informational logs are necessary to ease debugging production issues.
+
+
+Tests reveal that it works as expected.
+
+Try:
+
+
+Also, try to reuse a mismatched idempotency key, 
+, 
+, for the third request. As we haven't implemented any error management yet, you'll get the cached response for another request. It's time to up our game.
+The specification defines several error paths:
+Let's implement them one by one. First, let's check that the request has an idempotency key. Note that we can configure the plugin on a per-route basis, so if the route includes the plugin, we can conclude that it's mandatory.
+
+
+Just return the appropriate 400 if the key is missing. That one was easy.
+Checking the reuse of an existing key for a different request is slightly more involved. We first need to store the request, or more precisely, the fingerprint of what constitutes a request. Two requests are the same if they have: the same method, the same path, the same body, and the same headers. Depending on your situation, the domain (and the port) might or may not be part of them. For my simple implementation, I'll leave it out.
+There are several problems to solve. First, I didn't find an existing API to hash the 
+ object like there is in other languages I'm more familiar with, 
+, Java's 
+. I decided to encode the object in JSON and hash the string. However, the existing 
+ has sub-elements that cannot be converted to JSON. I had to extract the parts mentioned above and convert the table.
+
+
+Then, instead of storing a boolean when receiving the request, we store the resulting hash instead.
+
+
+We read the hash stored under the idempotency key on the other branch. If they don't match, we exit with the relevant error code:
+
+
+The final error management happens just afterward. Imagine the following scenario:
+The upstream didn't finish processing the request; hence, the first request hasn't yet reached the 
+ phase.
+We append the following code to the above snippet:
+
+
+That's it.
+In this post, I showed a simple implementation of the 
+ header specification on Apache APISIX via a plugin. At this stage, it has room for improvement: automated tests, the ability to configure Redis on a per route basis, configure the domain/path to be part of the request, configure a Redis cluster instead of a single instance, use another K/V store, etc.
+Yet, it does implement the specification and has the potential to evolve into a more production-grade implementation.
+The complete source code for this post can be found on GitHub.
+Hello Developers 👋 My name is Dilane Kombou, I'm a JavaScript developer from Cameroon.
+I'm very excited to announce you that I released the first version of my own React Framework that I called 
+  🚀
+Based on 
+ and 
+, it provides to you a great experience for developing high-quality web application.
+It supports a major list of modern features of the web that you can have access of the Blog post, published on the official website of Rasengan.js.
+The project if open source, so you can check the code and even contribute to it without problem 😊
+Please check it out, leave me stars on Github and provide me feedback on the Github discussions to better enhance the framework.
+Thanks.
+Golang is still evolving, and the developer team behind the language keeps adding new features and improving the existing ones. Some updates bring a portion of experimental features that might be added in upcoming major updates. In the 1.22 update Go team introduced fixes the language lacked so much, such as:
+In this version, they added a new experimental feature to the language, 
+, which is pretty exciting. So what is Rangefunc? In simple words, it's a range-over function, a little bit similar to PHP generators (if you are familiar with it). This functionality allows developers to create iterators from functions and use them inside for loops with 
+ keywords. 
+Let's take a look at an example of how the generators could be useful. We have a requirement to create an event-processing system that must process a sequence of tasks. Here's a basic example here:
+
+
+In this function, we have a loop that iterates over each event in the 
+ slice. Each event spawns a new goroutine. This means that each goroutine will process a different event concurrently. When we look at this code, you'll notice that there's quite a bit of boilerplate. This can be solved by introducing a function iterator.
+
+
+This iteration can be converted into the so-called generator function, which in golang is introduced by Rangefunc. This function will contain the whole parallel logic inside and will be isolated from the main logic as a separate implementation. To do so, we need to create a new function named Parallel. The function signature would look like this:
+
+
+Arguments of the type 
+ represent the value in the slice at the iteration. The return type of the range function is a yield function 
+ which must return a 
+ result according to the documentation:
+Now we have a function signature. Let's implement the body. We need a closure that accepts the yield function. The rest of the logic with goroutines goes inside it.
+
+
+Now we have the generator, let's modify the main function to use the new funciton:
+
+
+When we run this code, we can see that everything works in parallel as it did before with the boilerplate. Before running make sure that you have enabled this experimental feature using the flag 
+:
+
+
+This feature brings a whole new meaning to the iterations over the data structures and, in my opinion, has a good potential to exist. It will bring some sort of standardization to various standard library data structures like buffers, scanners, readers, and more. I would love to see this feature in the language's future update notes. 
