@@ -14,6 +14,8 @@ class DevtoSpider(scrapy.Spider):
         'article_body': '#article-body',
         'read_next': "a.mt-6::attr(href)",
     }
+    max_depth = 5
+    current_depth = 0
 
     def start_requests(self):
         urls = [
@@ -23,6 +25,7 @@ class DevtoSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
+
         if response.status == 200:
             doc_id = response.css(self.css_selectors['doc_id']).get()
 
@@ -39,10 +42,12 @@ class DevtoSpider(scrapy.Spider):
                 except Exception as e:
                     self.logger.error(e)
                 next_pages = response.css(self.css_selectors['read_next']).getall()
-                for next_page in next_pages:
-                    yield response.follow(next_page, callback=self.parse)
+                if self.current_depth < self.max_depth:
+                    self.current_depth += 1
+                    for next_page in next_pages:
+                        yield response.follow(next_page, callback=self.parse)
+
             else:
                 self.logger.info(f"Document with {doc_id} already exists. Skipping.")
         else:
-            self.logger.error(f"Faild to fetch page: {response.url}")
-
+            self.logger.error(f"Failed to fetch page: {response.url}")
